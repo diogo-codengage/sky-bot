@@ -1,29 +1,15 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "5.0.4",
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "title": "Sky",
+    "name": "sky-bot",
+    "version": "0.0.1",
     "keywords": [
         "css",
         "sass",
         "html",
-        "responsive",
-        "theme",
-        "template"
+        "responsive"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    "scripts": {
+      "start": "gulp dev"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.6.3",
