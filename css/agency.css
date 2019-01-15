@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -229,7 +229,17 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-.service {
+.background {
+  background-color: rgba(168, 164, 164, 0.1);
+  padding: 33px;
+  border-radius: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.background .service {
   width: 130px;
   height: 130px;
   margin: 0 auto;
@@ -239,15 +249,15 @@ header.masthead .intro-text .intro-heading {
   background-size: cover;
 }
 
-.service.children {
+.background .service.children {
   background-image: url("../img/services/2/1.svg");
 }
 
-.service.operations {
+.background .service.operations {
   background-image: url("../img/services/2/2.svg");
 }
 
-.service.ideas {
+.background .service.ideas {
   background-image: url("../img/services/2/3.svg");
 }
 

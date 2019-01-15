@@ -4,21 +4,29 @@
   text-transform: none;
 }
 
-.service {
-  width: 130px;
-  height: 130px;
+.background {
+  background-color: rgba(168, 164, 164, 0.1);
+  padding: 33px;
+  border-radius: 50%;
+  width: fit-content;
   margin: 0 auto;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: cover;
-  &.children {
-    background-image: url('../img/services/2/1.svg');
-  }
-  &.operations {
-    background-image: url('../img/services/2/2.svg');
-  }
-  &.ideas {
-    background-image: url('../img/services/2/3.svg');
+
+  .service {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    &.children {
+      background-image: url('../img/services/2/1.svg');
+    }
+    &.operations {
+      background-image: url('../img/services/2/2.svg');
+    }
+    &.ideas {
+      background-image: url('../img/services/2/3.svg');
+    }
   }
 }
